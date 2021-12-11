@@ -1,0 +1,641 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap'); 
+ 
+body { 
+    font-family: 'Montserrat', sans-serif; 
+    margin: 0px; 
+} 
+ 
+*{ 
+    margin: 0px; 
+    padding: 0px; 
+} 
+ 
+header { 
+    width: 100%; 
+    min-height: 80vh; 
+    background: url('https://mangakun.com/wp-content/uploads/2021/07/darling-in-the-franxx-2-temporada-data-de-lancamento.jpg') bottom / cover; 
+    position: relative; 
+} 
+ 
+header::before{ 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    content: ''; 
+    width: 100%; 
+    height: 100%; 
+    background: rgb(255,255,255); 
+    background: linear-gradient(0deg, rgba(255,255,255,0) 40%, rgba(255,255,255,1) 100%); 
+    z-index: 1; 
+} 
+ 
+header nav { 
+    display: flex; 
+    justify-content: space-around; 
+    padding: 20px 0px; 
+} 
+ 
+header nav , header .banner{ 
+    position: relative; 
+    z-index: 2; 
+} 
+ 
+header nav *{ 
+    color: rgb(80, 80, 80); 
+} 
+ 
+header nav a { 
+    font-size: 2rem; 
+    border: 4px solid rgb(80, 80, 80); 
+    padding: 10px; 
+    text-decoration: none; 
+    font-weight: 500; 
+} 
+ 
+header nav button { 
+    font-size: 2rem; 
+    background: none; 
+    border: none; 
+} 
+ 
+.banner { 
+    text-align: center; 
+} 
+ 
+.h1 { 
+    font-weight: 600; 
+    font-size: 40px; 
+    margin: 30px 0px; 
+} 
+ 
+.p { 
+    width: 60%; 
+    font-size: 20px; 
+    margin: 0px auto; 
+    font-weight: 500; 
+} 
+ 
+.banner .form { 
+    width: 30%; 
+    display: flex; 
+    flex-direction: column; 
+    background-color: white; 
+    box-shadow: 0px 0px 35px 15px gray; 
+    text-align: center; 
+    padding: 20px; 
+    margin-left: 15%; 
+    margin-top: 40px; 
+} 
+ 
+.banner .form input { 
+    padding: 10px 0px; 
+} 
+ 
+.banner .form textarea { 
+    height: 120px; 
+} 
+ 
+.input { 
+    margin: 20px 0px; 
+    border: none; 
+    border-bottom: 1px solid rgb(50, 50, 50); 
+    font-size: 15px; 
+    outline: none; 
+} 
+ 
+.banner .form button { 
+    background-color: coral; 
+    padding: 10px 20px; 
+    margin: auto; 
+    font-size: 18px; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+} 
+ 
+.banner .form button:active{ 
+    background-color: rgb(224, 103, 59); 
+} 
+ 
+ 
+/* ------------------------------------------ */ 
+ 
+.process { 
+    text-align: center; 
+    padding: 50px 0px; 
+} 
+ 
+.process section { 
+    display: flex; 
+    padding: 40px 200px; 
+    justify-content: space-around; 
+} 
+ 
+.process section div { 
+    background-color: rgb(250, 105, 250); 
+    width: 22%; 
+    padding: 30px 0px; 
+    max-height: 140px; 
+} 
+ 
+.process section div:nth-child(1){ 
+    background-color: rgb(70, 168, 246); 
+} 
+ 
+.process section div:nth-child(2){ 
+    background-color: rgb(183, 66, 241); 
+} 
+ 
+.process section div:nth-child(3){ 
+    background-color: rgb(119, 115, 251); 
+} 
+ 
+.process section div:nth-child(4){ 
+    background-color: rgb(246, 67, 99); 
+} 
+ 
+.process section div * { 
+    color: white; 
+} 
+ 
+.process section div i{ 
+    font-size: 55px; 
+} 
+ 
+.process section div h3 { 
+    font-weight: 500; 
+} 
+ 
+.process section div h5 { 
+    font-weight: 500; 
+} 
+ 
+.process section div button { 
+    padding: 15px 40px; 
+    font-size: 20px; 
+    border: none; 
+    background-color: white; 
+    border-radius: 30px; 
+    color: black; 
+    box-shadow: 0px 10px 20px black; 
+    position: relative; 
+    top: 30px; 
+} 
+ 
+ 
+ 
+/* ------------------------------------------ */ 
+ 
+.grid { 
+    text-align: center; 
+} 
+ 
+.grid section { 
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    grid-auto-rows: 320px; 
+    padding: 20px 200px; 
+    grid-gap: 20px; 
+} 
+ 
+.box1 { 
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ53MVTqu_4d3Qj8NUoSvTEWhU_MbzBVD2B6FBh_F2FXX-GI6bDkLkyp1RYubcGPF-0zdM&usqp=CAU') center / cover; 
+} 
+ 
+.box2 { 
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ53MVTqu_4d3Qj8NUoSvTEWhU_MbzBVD2B6FBh_F2FXX-GI6bDkLkyp1RYubcGPF-0zdM&usqp=CAU') center / cover; 
+} 
+ 
+.box3 { 
+    background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ53MVTqu_4d3Qj8NUoSvTEWhU_MbzBVD2B6FBh_F2FXX-GI6bDkLkyp1RYubcGPF-0zdM&usqp=CAU') center / cover; 
+} 
+ 
+ 
+ 
+ 
+/* ------------------------------------------ */ 
+ 
+.watch { 
+    text-align: center; 
+} 
+ 
+.watch section { 
+    display: flex; 
+    padding: 20px 80px; 
+    text-align: left; 
+    justify-content: space-between; 
+} 
+ 
+.watch section div:nth-child(1){ 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    padding-left: 20px; 
+} 
+ 
+.watch section div { 
+    width: 45%; 
+} 
+ 
+.watch section div h1 { 
+    font-size: 25px; 
+} 
+ 
+.watch section div p { 
+    font-size: 18px; 
+} 
+ 
+.watch section div button { 
+    margin: 30px 0px; 
+    margin-right: auto; 
+    padding: 15px 40px; 
+    font-size: 20px; 
+    border: none; 
+    background-color: white; 
+    border-radius: 30px; 
+    color: black; 
+    box-shadow: 0px 10px 20px black; 
+    text-align: left; 
+} 
+ 
+.watch section div:nth-child(2) img { 
+    width: 100%; 
+    height: 100%; 
+} 
+ 
+ 
+ 
+/* ------------------------------------------------------- */ 
+ 
+.person{ 
+    text-align: center; 
+    background-color: rgb(230, 230, 230); 
+    padding: 50px 0px; 
+} 
+ 
+.person section{ 
+    display: flex; 
+    padding: 30px 150px; 
+    justify-content: space-evenly; 
+} 
+ 
+.person section div{ 
+    width: calc((100% - 10%) / 3); 
+} 
+ 
+.person section img{ 
+    width: 100%; 
+} 
+ 
+ 
+ 
+ 
+ 
+/* -----------------------------------------------  */ 
+ 
+.feedback{ 
+    text-align: center; 
+    padding: 50px 0px; 
+} 
+ 
+.card{ 
+    display: flex; 
+    justify-content: space-around; 
+    padding: 50px 0px; 
+} 
+ 
+.card div{ 
+    width: 650px; 
+    color: rgb(61, 61, 61); 
+    box-shadow: 0px 0px 30px 1px black; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    margin-top: 50px; 
+} 
+.card div h2{ 
+    font-weight: 400; 
+    margin: 20px; 
+} 
+ 
+.card div section{ 
+    width: 150px; 
+    height: 150px; 
+    position: relative; 
+    top: -50px; 
+} 
+ 
+.card div:nth-child(1) section{ 
+    background: url('https://coub-anubis-a.akamaized.net/coub_storage/coub/simple/cw_timeline_pic/16b8160c161/bab8e58d99d4f8d5a3fde/med_1615419925_image.jpg') center / cover; 
+    border-radius: 50%; 
+} 
+ 
+.card div:nth-child(2) section{ 
+    background: url('https://coub-anubis-a.akamaized.net/coub_storage/coub/simple/cw_timeline_pic/16b8160c161/bab8e58d99d4f8d5a3fde/med_1615419925_image.jpg') center / cover; 
+    border-radius: 50%; 
+} 
+ 
+ 
+ 
+/* ----------------------------------- */ 
+ 
+footer{ 
+    padding: 80px 0px; 
+    background-color: rgb(230, 230, 230); 
+} 
+ 
+.icons{ 
+    display: flex; 
+    justify-content: space-evenly; 
+    padding: 20px 150px; 
+} 
+ 
+.icons img{ 
+    width: 150px; 
+} 
+ 
+ 
+ 
+ 
+/* ----------------------------------- */ 
+ 
+.contact{ 
+    text-align: center; 
+} 
+ 
+.contact button{ 
+    padding: 15px 40px; 
+    font-size: 20px; 
+    border: none; 
+    background-color: white; 
+    border-radius: 30px; 
+    color: black; 
+    box-shadow: 0px 10px 20px black; 
+    margin: 50px 0px; 
+} 
+ 
+.contact button a{ 
+    text-decoration: none; 
+    color: black; 
+} 
+ 
+.contact div{ 
+    width: 300px; 
+    margin: 0px auto; 
+    display: flex; 
+    justify-content: space-between; 
+} 
+ 
+.contact div span{ 
+    font-size: 30px; 
+    width: 60px; 
+    height: 60px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    border-radius: 50%; 
+    color: white; 
+    background-color: rgb(100, 100, 100); 
+}
+
+/* _________ media ___________ */ 
+ 
+ 
+@media (max-width: 1310px) { 
+    .process section div button { 
+        padding: 15px 30px; 
+        font-size: 16px; 
+    } 
+} 
+ 
+@media (max-width: 1280px) { 
+    .icons { 
+        padding: 20px 80px; 
+    } 
+} 
+ 
+@media (max-width: 1120px){ 
+    .process section div button { 
+        padding: 15px 20px; 
+        font-size: 14px; 
+    } 
+ 
+    .process section { 
+        padding: 40px 150px; 
+    } 
+} 
+ 
+@media (max-width: 1100px) { 
+    .icons { 
+        padding: 20px 60px; 
+    } 
+ 
+    .icons img { 
+        width: 120px; 
+    } 
+ 
+    .watch section div h1 { 
+        font-size: 22px; 
+    } 
+ 
+    .watch section div p { 
+        font-size: 14px; 
+    } 
+ 
+    .h1 { 
+        font-size: 36px; 
+        margin: 30px 0px; 
+    } 
+ 
+    .p { 
+        font-size: 18px; 
+        font-weight: 400; 
+    } 
+} 
+ 
+@media (max-width: 1050px){ 
+ 
+    .grid section { 
+        grid-auto-rows: 220px; 
+    } 
+     
+} 
+ 
+@media (max-width: 1000px){ 
+ 
+    .person section { 
+        flex-wrap: wrap; 
+        padding: 30px 40px; 
+    } 
+ 
+    .person section div { 
+        width: 280px; 
+    } 
+ 
+    .person section img{ 
+        margin-bottom: 40px; 
+    } 
+ 
+} 
+ 
+@media (max-width: 875px){ 
+ 
+    .grid section { 
+        grid-template-columns: repeat(2, 1fr); 
+    } 
+ 
+    .grid section div:nth-child(9){ 
+        grid-column: 1 / 3; 
+    } 
+ 
+    .watch section { 
+        flex-wrap: wrap; 
+    } 
+ 
+    .watch section { 
+        display: flex; 
+        padding: 20px 60px; 
+    } 
+     
+    .watch section div:nth-child(1) { 
+        padding-left: 0px; 
+    } 
+     
+    #p2{ 
+        display: none; 
+    } 
+ 
+    .icons { 
+        padding: 20px 40px; 
+    } 
+     
+    .icons img { 
+        width: 100px; 
+    } 
+ 
+} 
+ 
+@media (max-width: 800px){ 
+ 
+    .process section { 
+        padding: 40px 150px; 
+        flex-wrap: wrap; 
+    } 
+ 
+    .process section div{ 
+        width: 40%; 
+        margin-bottom: 50px; 
+    } 
+ 
+    .grid section { 
+        grid-template-columns: repeat(3, 1fr); 
+        /* display: grid; 
+        grid-auto-rows: 320px; */ 
+        padding: 20px 60px; 
+        grid-gap: 15px; 
+    } 
+ 
+    .grid section div:nth-child(9){ 
+        grid-column: inherit; 
+    } 
+ 
+    .icons { 
+        display: flex; 
+        flex-wrap: wrap; 
+    } 
+     
+    .icons img { 
+        width: 28%; 
+    } 
+     
+    .icons img:nth-child(4) { 
+        display: none; 
+    } 
+     
+    .icons img:nth-child(5) { 
+        display: none; 
+    } 
+     
+    .icons img:nth-child(6) { 
+        display: none; 
+    } 
+ 
+} 
+ 
+@media (max-width: 700px){ 
+ 
+    .process section div{ 
+        width: 60%; 
+    } 
+ 
+} 
+ 
+@media (max-width: 685px){ 
+ 
+    .card div { 
+        width: 450px; 
+        padding: 0px 20px; 
+    } 
+} 
+ 
+@media (max-width: 665px){ 
+ 
+    .grid section { 
+        grid-template-columns: repeat(2, 1fr); 
+    } 
+ 
+    .grid section div:nth-child(9){ 
+        grid-column: 1 / 3; 
+    } 
+ 
+    .watch section div:nth-child(2) img{ 
+        display: none; 
+    } 
+ 
+    .watch section div:nth-child(2){ 
+        background: url('../img/appleWatch.png') center / cover; 
+    } 
+ 
+} 
+ 
+@media (max-width: 565px){ 
+ 
+    .banner .form button { 
+        font-size: 12px; 
+        border-radius: 5px; 
+    } 
+ 
+    .process section div{ 
+        width: 60%;  
+        padding: 35px 20px; 
+    } 
+ 
+} 
+ 
+@media (max-width: 320px){ 
+    header .banner h1{ 
+        font-size: 12px; 
+        margin: 15px 0px; 
+    }  
+    header .banner p{ 
+        font-size: 9px; 
+    } 
+    header nav a{ 
+        font-size: 12px; 
+        border: 1px solid rgb(100, 100, 100); 
+    } 
+    header nav i{ 
+        font-size: 12px; 
+    } 
+    header .banner .form{ 
+        width: 50%; 
+        padding: 20px; 
+    } 
+    header .banner .form *{ 
+        font-size: 8px; 
+        margin: 5px 0px; 
+    } 
+    header .banner .form textarea{ 
+        height: 50px; 
+    } 
+}
